@@ -1,3 +1,4 @@
+# **Application de gestion de mots de passe non sécurisé**
 # Configuration de la base de données avec Prisma et lancement de l'application Electron
 
 ## Prérequis
