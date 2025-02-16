@@ -1,3 +1,4 @@
+# **Application de gestion de mots de passe non sécurisé**
 # Configuration de la base de données avec Prisma et lancement de l'application Electron
 
 ## Prérequis
@@ -32,13 +33,13 @@ npx prisma init
 ```
 4. Modifier le fichier **.env** pour y mettre votre base de données
 ```bash
-DATABASE_URL="YOUR DATABASE URL"
+DATABASE_URL="mysql://user:password@DATABASEURL/DataBaseName"
 ```
 5. Generer le schéma de la base de données
 ```bash
 npx prisma generate
 ```
-7. Pousser le schéma dans la base de données
+7. Pousser le schéma dans la base de données **(ÉCRASERA TOUTES LES DONNÉES SI LA BASE DE DONNÉES N'EST PAS CONFORME AU SCHEMA)**
 ```bash
 npx prisma db push
 ```
