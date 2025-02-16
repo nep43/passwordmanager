@@ -47,4 +47,4 @@ npx prisma db push
 1. Démarrez l'application Electron avec la commande suivante :
 ```bash
 npm start
-``
+```
