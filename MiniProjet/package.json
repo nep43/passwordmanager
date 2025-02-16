@@ -1,0 +1,19 @@
+{
+  "name": "passwordmanager",
+  "version": "1.0.0",
+  "description": "Un gestionnaire de mot de passe simple",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nep",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^34.0.2",
+    "prisma": "^6.3.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.3.0"
+  }
+}

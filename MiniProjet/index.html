@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionnaire de Mots de Passe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="table-container">
+            <table id = "passwordTable">
+                <thead>
+                    <tr>
+                        <th>Site</th>
+                        <th>Email</th>
+                        <th>Mot de Passe</th>
+                        <th>Afficher</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="form-container">
+            <form id="passwordForm">
+                <h2>Ajouter un Mot de Passe</h2>
+                
+                <label for="site">Nom du Site :</label>
+                <input type="text" id="site" name="site" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Mot de Passe :</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Ajouter</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
