@@ -39,7 +39,7 @@ DATABASE_URL="mysql://user:password@DATABASEURL/DataBaseName"
 ```bash
 npx prisma generate
 ```
-7. Pousser le schéma dans la base de données (ÉCRASERA TOUTES LES DONNÉES SI LA BASE DE DONNÉES N'EST PAS CONFORME AU SCHEMA)
+7. Pousser le schéma dans la base de données **(ÉCRASERA TOUTES LES DONNÉES SI LA BASE DE DONNÉES N'EST PAS CONFORME AU SCHEMA)**
 ```bash
 npx prisma db push
 ```
