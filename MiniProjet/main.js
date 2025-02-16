@@ -62,6 +62,5 @@ app.on('window-all-closed', () => {
 
 async function getPasswords() {
     const pwds = await prisma.user.findMany();
-    console.log(pwds);
     win.webContents.send('getPasswordData', pwds);
   }

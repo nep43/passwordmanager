@@ -10,7 +10,6 @@ document.getElementById('passwordForm').addEventListener('submit', (event) => {
 
   const data = { site, email, password };
 
-  alert('Appel de save Data');
 
   window.api.saveData(data);
 
@@ -42,7 +41,7 @@ function addRowToTable(data) {
     const showPasswordCell = newRow.insertCell(3);
     const hiddenPasswordCell = newRow.insertCell(4);
   
-    siteCell.textContent = data.site;
+    siteCell.textContent = data.website;
     emailCell.textContent = data.email;
     passwordCell.textContent = '*******';
     showPasswordCell.innerHTML = `<input type="checkbox" onclick="togglePassword(this, 'password${table.rows.length}')">`;
